@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Professional Web Developer Skills Portfolio">
+    <meta name="keywords" content="web development, HTML, CSS, JavaScript, React, Python, Node.js">
+    <meta name="author" content="Your Name">
+    <title>Web Developer Skills | Professional Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="glass-board">
+        <div class="floating-shapes">
+            <div class="shape"></div>
+            <div class="shape"></div>
+            <div class="shape"></div>
+        </div>
+        
+        <header>
+            <h1 class="title">Professional Skills</h1>
+            <p class="subtitle">Full Stack Web Development</p>
+        </header>
+        
+        <div class="skills-container">
+            <div class="skill-card" data-aos="fade-up" data-aos-delay="100">
+                <div class="skill-icon html">
+                    <i class="fab">HTML5</i>
+                </div>
+                <div class="skill-info">
+                    <h3>HTML5 <span class="percent">98%</span></h3>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 98%"></div>
+                    </div>
+                    <p class="skill-description">Semantic HTML, Accessibility, SEO Optimization</p>
+                </div>
+            </div>
+
+            <div class="skill-card" data-aos="fade-up" data-aos-delay="200">
+                <div class="skill-icon css">
+                    <i class="fab">CSS3</i>
+                </div>
+                <div class="skill-info">
+                    <h3>CSS3 <span class="percent">95%</span></h3>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 95%"></div>
+                    </div>
+                    <p class="skill-description">Flexbox, Grid, Animations, Responsive Design</p>
+                </div>
+            </div>
+
+            <div class="skill-card" data-aos="fade-up" data-aos-delay="300">
+                <div class="skill-icon js">
+                    <i class="fab">JS</i>
+                </div>
+                <div class="skill-info">
+                    <h3>JavaScript <span class="percent">92%</span></h3>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 92%"></div>
+                    </div>
+                    <p class="skill-description">ES6+, DOM, Async Programming</p>
+                </div>
+            </div>
+
+            <div class="skill-card" data-aos="fade-up" data-aos-delay="400">
+                <div class="skill-icon react">
+                    <i class="fab">React</i>
+                </div>
+                <div class="skill-info">
+                    <h3>React <span class="percent">90%</span></h3>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 90%"></div>
+                    </div>
+                    <p class="skill-description">Hooks, Redux, Next.js</p>
+                </div>
+            </div>
+
+            <div class="skill-card" data-aos="fade-up" data-aos-delay="500">
+                <div class="skill-icon python">
+                    <i class="fab">PY</i>
+                </div>
+                <div class="skill-info">
+                    <h3>Python <span class="percent">94%</span></h3>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 94%"></div>
+                    </div>
+                    <p class="skill-description">Django, Data Analysis, API Development</p>
+                </div>
+            </div>
+
+            <div class="skill-card" data-aos="fade-up" data-aos-delay="600">
+                <div class="skill-icon node">
+                    <i class="fab">Node</i>
+                </div>
+                <div class="skill-info">
+                    <h3>Node.js <span class="percent">91%</span></h3>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 91%"></div>
+                    </div>
+                    <p class="skill-description">Express, REST APIs, MongoDB</p>
+                </div>
+            </div>
+        </div>
+
+        <footer class="portfolio-footer">
+            <p>Last Updated: <span id="lastUpdate"></span></p>
+            <div class="social-links">
+                <a href="#" class="social-link">GitHub</a>
+                <a href="#" class="social-link">LinkedIn</a>
+                <a href="#" class="social-link">Portfolio</a>
+            </div>
+        </footer>
+    </div>
+
+    <script>
+        document.getElementById('lastUpdate').textContent = new Date().toLocaleDateString('en-US', {
+            year: 'numeric',
+            month: 'long',
+            day: 'numeric'
+        });
+    </script>
+</body>
+</html> 
+
+
+
+
+
+
+
+git clone https://github.com/JohnSoltann/web-dev-skills-portfolio
+cd web-dev-skills-portfolio
+
